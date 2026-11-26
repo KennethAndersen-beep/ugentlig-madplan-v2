@@ -602,16 +602,7 @@
         "3 g tørret oregano (ca. 1½ tsk.)",
         "1 g chilipulver (ca. ½ tsk.)",
         "3 g salt (ca. ½ tsk.; 2 g til panden og 1 g til tzatziki)",
-        "1 g sort peber (ca. ½ tsk.)",
-        "90 ml rapsolie",
-        "30 ml eddike",
-        "15 g honning",
-        "16 g stødt spidskommen",
-        "19 g paprika",
-        "8 g tørret oregano",
-        "12 g chilipulver",
-        "19 g salt",
-        "7 g sort peber"
+        "1 g sort peber (ca. ½ tsk.)"
       ],
       "steps": [
         "Skær kartoflerne i små tern. Kog dem i letsaltet vand i 7 minutter, og hæld vandet fra.",
@@ -693,51 +684,6 @@
         {
           "ingredient": "sort peber",
           "quantity": 1,
-          "unit": "g"
-        },
-        {
-          "ingredient": "rapsolie",
-          "quantity": 90,
-          "unit": "ml"
-        },
-        {
-          "ingredient": "eddike",
-          "quantity": 30,
-          "unit": "ml"
-        },
-        {
-          "ingredient": "honning",
-          "quantity": 15,
-          "unit": "g"
-        },
-        {
-          "ingredient": "spidskommen",
-          "quantity": 16,
-          "unit": "g"
-        },
-        {
-          "ingredient": "paprika",
-          "quantity": 19,
-          "unit": "g"
-        },
-        {
-          "ingredient": "oregano",
-          "quantity": 8,
-          "unit": "g"
-        },
-        {
-          "ingredient": "chilipulver",
-          "quantity": 12,
-          "unit": "g"
-        },
-        {
-          "ingredient": "salt",
-          "quantity": 19,
-          "unit": "g"
-        },
-        {
-          "ingredient": "sort peber",
-          "quantity": 7,
           "unit": "g"
         }
       ]
@@ -974,7 +920,7 @@
     },
     {
       "ingredient": "rapsolie",
-      "required": 180,
+      "required": 90,
       "unit": "ml",
       "purchased": 1000,
       "price_cents": 1909,
@@ -986,7 +932,7 @@
     },
     {
       "ingredient": "eddike",
-      "required": 60,
+      "required": 30,
       "unit": "ml",
       "purchased": 1000,
       "price_cents": 650,
@@ -998,7 +944,7 @@
     },
     {
       "ingredient": "honning",
-      "required": 30,
+      "required": 15,
       "unit": "g",
       "purchased": 425,
       "price_cents": 1909,
@@ -1010,7 +956,7 @@
     },
     {
       "ingredient": "spidskommen",
-      "required": 32,
+      "required": 16,
       "unit": "g",
       "purchased": 33,
       "price_cents": 2139,
@@ -1022,7 +968,7 @@
     },
     {
       "ingredient": "paprika",
-      "required": 38,
+      "required": 19,
       "unit": "g",
       "purchased": 60,
       "price_cents": 1275,
@@ -1034,7 +980,7 @@
     },
     {
       "ingredient": "oregano",
-      "required": 16,
+      "required": 8,
       "unit": "g",
       "purchased": 15,
       "price_cents": 400,
@@ -1046,7 +992,7 @@
     },
     {
       "ingredient": "chilipulver",
-      "required": 24,
+      "required": 12,
       "unit": "g",
       "purchased": 70,
       "price_cents": 795,
@@ -1058,7 +1004,7 @@
     },
     {
       "ingredient": "salt",
-      "required": 38,
+      "required": 19,
       "unit": "g",
       "purchased": 1000,
       "price_cents": 475,
@@ -1070,7 +1016,7 @@
     },
     {
       "ingredient": "sort peber",
-      "required": 14,
+      "required": 7,
       "unit": "g",
       "purchased": 50,
       "price_cents": 1067,
@@ -1089,70 +1035,22 @@
     "source_meals": 7,
     "price_rows": 28,
     "arithmetic": true,
-    "shortfalls": [
-      {
-        "ingredient": "oregano",
-        "required": 16,
-        "unit": "g",
-        "purchased": 15,
-        "price_cents": 400,
-        "store": "REMA 1000",
-        "pantry": true,
-        "source_url": null,
-        "price_status": "reported_not_independently_verified",
-        "note": null
-      }
-    ],
+    "shortfalls": [],
     "unknown_weight": [
       "agurk",
-      "hvidkål"
+      "hvidkål",
+      "kidneybønner (drænet vægt)"
     ],
-    "discrepancies": [
-      {
-        "ingredient": "rapsolie",
-        "expected_from_prior_summary": 90,
-        "actual_from_source": 180
-      },
-      {
-        "ingredient": "eddike",
-        "expected_from_prior_summary": 30,
-        "actual_from_source": 60
-      },
-      {
-        "ingredient": "honning",
-        "expected_from_prior_summary": 15,
-        "actual_from_source": 30
-      },
-      {
-        "ingredient": "spidskommen",
-        "expected_from_prior_summary": 16,
-        "actual_from_source": 32
-      },
-      {
-        "ingredient": "paprika",
-        "expected_from_prior_summary": 19,
-        "actual_from_source": 38
-      },
-      {
-        "ingredient": "oregano",
-        "expected_from_prior_summary": 8,
-        "actual_from_source": 16
-      },
-      {
-        "ingredient": "chilipulver",
-        "expected_from_prior_summary": 12,
-        "actual_from_source": 24
-      },
-      {
-        "ingredient": "salt",
-        "expected_from_prior_summary": 19,
-        "actual_from_source": 38
-      },
-      {
-        "ingredient": "sort peber",
-        "expected_from_prior_summary": 7,
-        "actual_from_source": 14
-      }
+    "discrepancies": [],
+    "parser_corrected": "Recipe ingredient extraction stops at instructions heading; pantry summary excluded",
+    "recipe_ingredient_lines": [
+      14,
+      14,
+      13,
+      15,
+      13,
+      13,
+      15
     ]
   },
   "blockers": [
