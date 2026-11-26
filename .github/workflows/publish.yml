@@ -5,11 +5,14 @@ on:
   workflow_dispatch:
 permissions:
   contents: read
+  actions: read
   pages: write
   id-token: write
 concurrency:
   group: pages
   cancel-in-progress: false
+env:
+  ARTIFACT_NAME: pages-${{ github.run_id }}-${{ github.run_attempt }}
 jobs:
   publish:
     runs-on: ubuntu-latest
@@ -22,5 +25,34 @@ jobs:
       - uses: actions/upload-pages-artifact@v3
         with:
           path: public
+          name: ${{ env.ARTIFACT_NAME }}
+      - name: Wait for unique artifact registration
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          for attempt in {1..12}; do
+            if count=$(gh api --method GET "repos/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID/artifacts" -f name="$ARTIFACT_NAME" --jq '[.artifacts[] | select(.expired == false)] | length'); then
+              if [ "$count" = 1 ]; then exit 0; fi
+              if [ "$count" -gt 1 ]; then echo "::error::Duplicate artifact"; exit 1; fi
+            fi
+            sleep 5
+          done
+          echo "::error::Artifact registration not confirmed"
+          exit 1
       - uses: actions/deploy-pages@v4
+        with:
+          artifact_name: ${{ env.ARTIFACT_NAME }}
         id: deployment
+      - name: Verify published data
+        env:
+          PAGE_URL: ${{ steps.deployment.outputs.page_url }}
+        run: |
+          for attempt in {1..12}; do
+            if curl -fsSL --max-time 15 "${PAGE_URL%/}/test.json?run=$GITHUB_RUN_ID-$GITHUB_RUN_ATTEMPT-$attempt" -o /tmp/published.json && python3 -c 'import json; assert json.load(open("/tmp/published.json")) == json.load(open("public/test.json"))'; then
+              echo "PASS: published JSON matches validated payload"
+              exit 0
+            fi
+            sleep 5
+          done
+          echo "::error::Published JSON not verified"
+          exit 1
