@@ -1,0 +1,474 @@
+{
+  "schema_version": 1,
+  "environment": "test",
+  "publish": false,
+  "recipes": [
+    {
+      "id": "chicken-curry",
+      "name": "Kylling i kokoskarry med ris",
+      "protein": "chicken",
+      "servings": 2,
+      "ingredients": [
+        [
+          "kyllingebryst",
+          350,
+          "g"
+        ],
+        [
+          "ris",
+          150,
+          "g"
+        ],
+        [
+          "kokosmælk",
+          200,
+          "ml"
+        ],
+        [
+          "løg",
+          100,
+          "g"
+        ],
+        [
+          "peberfrugt",
+          150,
+          "g"
+        ],
+        [
+          "karry",
+          6,
+          "g"
+        ],
+        [
+          "olie",
+          10,
+          "ml"
+        ],
+        [
+          "salt",
+          3,
+          "g"
+        ]
+      ],
+      "short_recipe": [
+        "Kog ris. Steg løg og kylling med karry, tilsæt peberfrugt og kokosmælk, og lad retten simre."
+      ],
+      "detailed_recipe": [
+        "Skyl ris og kog efter pakkens anvisning.",
+        "Skær løg og peberfrugt i tern. Skær kylling på et separat skærebræt.",
+        "Varm olien ved middelhøj varme. Steg løg 3 minutter, tilsæt karry og kylling og steg 5 minutter.",
+        "Tilsæt peberfrugt og kokosmælk. Lad simre 10–12 minutter, til kyllingen er gennemstegt (75 °C i centrum). Smag til med salt og server med ris."
+      ],
+      "minutes": 30,
+      "image": null
+    },
+    {
+      "id": "pork-paprika",
+      "name": "Paprikagryde med grisemørbrad og kartofler",
+      "protein": "pork",
+      "servings": 2,
+      "ingredients": [
+        [
+          "grisemørbrad",
+          350,
+          "g"
+        ],
+        [
+          "kartofler",
+          500,
+          "g"
+        ],
+        [
+          "løg",
+          100,
+          "g"
+        ],
+        [
+          "madlavningsfløde",
+          200,
+          "ml"
+        ],
+        [
+          "peberfrugt",
+          150,
+          "g"
+        ],
+        [
+          "paprika",
+          6,
+          "g"
+        ],
+        [
+          "olie",
+          10,
+          "ml"
+        ],
+        [
+          "salt",
+          3,
+          "g"
+        ]
+      ],
+      "short_recipe": [
+        "Kog kartofler. Brun mørbrad og løg, tilsæt paprika, peberfrugt og fløde, og lad simre."
+      ],
+      "detailed_recipe": [
+        "Skræl kartofler og kog dem 15–20 minutter, til de er møre.",
+        "Afpuds mørbrad og skær i mundrette stykker. Hak løg og peberfrugt.",
+        "Brun kødet i olie ved middelhøj varme i 4–5 minutter. Tilsæt løg, peberfrugt og paprika.",
+        "Hæld fløden ved og lad simre 8–10 minutter, til kødet er tilberedt; hele mørbradstykker bør nå mindst 63 °C med 3 minutters hvile. Smag til med salt."
+      ],
+      "minutes": 35,
+      "image": null
+    },
+    {
+      "id": "beef-chili",
+      "name": "Chili con carne med ris",
+      "protein": "beef",
+      "servings": 2,
+      "ingredients": [
+        [
+          "hakket oksekød",
+          300,
+          "g"
+        ],
+        [
+          "ris",
+          150,
+          "g"
+        ],
+        [
+          "hakkede tomater",
+          400,
+          "g"
+        ],
+        [
+          "kidneybønner",
+          240,
+          "g"
+        ],
+        [
+          "løg",
+          100,
+          "g"
+        ],
+        [
+          "chili",
+          2,
+          "g"
+        ],
+        [
+          "spidskommen",
+          4,
+          "g"
+        ],
+        [
+          "olie",
+          10,
+          "ml"
+        ],
+        [
+          "salt",
+          3,
+          "g"
+        ]
+      ],
+      "short_recipe": [
+        "Brun oksekød og løg, tilsæt krydderier, tomater og bønner. Simr og server med ris."
+      ],
+      "detailed_recipe": [
+        "Kog ris efter pakkens anvisning. Skyl og afdryp kogte kidneybønner; mængden er drænet vægt.",
+        "Hak løg og steg det i olie 3 minutter. Tilsæt oksekød og brun det grundigt.",
+        "Tilsæt chili, spidskommen, tomater og bønner. Lad simre 15–20 minutter, til kødet er gennemstegt (71 °C).",
+        "Smag til med salt og server med ris."
+      ],
+      "minutes": 35,
+      "image": null
+    },
+    {
+      "id": "chicken-tray",
+      "name": "Ovnbagt citronkylling med kartofler og gulerødder",
+      "protein": "chicken",
+      "servings": 2,
+      "ingredients": [
+        [
+          "kyllingebryst",
+          350,
+          "g"
+        ],
+        [
+          "kartofler",
+          450,
+          "g"
+        ],
+        [
+          "gulerødder",
+          250,
+          "g"
+        ],
+        [
+          "citron",
+          1,
+          "stk"
+        ],
+        [
+          "hvidløg",
+          6,
+          "g"
+        ],
+        [
+          "olie",
+          15,
+          "ml"
+        ],
+        [
+          "salt",
+          3,
+          "g"
+        ]
+      ],
+      "short_recipe": [
+        "Bag kartofler og gulerødder med olie og citron. Tilsæt kylling og bag til gennemstegt."
+      ],
+      "detailed_recipe": [
+        "Forvarm ovnen til 200 °C varmluft. Skær kartofler og gulerødder i små stykker.",
+        "Vend grøntsager med halvdelen af olien, salt og hakket hvidløg. Bag 20 minutter.",
+        "Pensl kylling med resten af olien og citronsaft. Læg den på fadet med grøntsagerne.",
+        "Bag yderligere 18–25 minutter afhængigt af tykkelsen, til kyllingen når 75 °C og grøntsagerne er møre."
+      ],
+      "minutes": 50,
+      "image": null
+    },
+    {
+      "id": "pork-cabbage",
+      "name": "Asiatisk grisekød med spidskål og nudler",
+      "protein": "pork",
+      "servings": 2,
+      "ingredients": [
+        [
+          "hakket grisekød",
+          300,
+          "g"
+        ],
+        [
+          "spidskål",
+          300,
+          "g"
+        ],
+        [
+          "gulerødder",
+          150,
+          "g"
+        ],
+        [
+          "nudler",
+          150,
+          "g"
+        ],
+        [
+          "hvidløg",
+          6,
+          "g"
+        ],
+        [
+          "sojasauce",
+          25,
+          "ml"
+        ],
+        [
+          "olie",
+          10,
+          "ml"
+        ],
+        [
+          "chili",
+          2,
+          "g"
+        ]
+      ],
+      "short_recipe": [
+        "Kog nudler, steg grisekød og grøntsager, og vend det hele med soja og chili."
+      ],
+      "detailed_recipe": [
+        "Kog nudler efter pakkens anvisning. Snit spidskål og gulerødder fint.",
+        "Brun grisekød i olie 5–7 minutter, til det er gennemstegt (71 °C).",
+        "Tilsæt hvidløg, chili, gulerødder og spidskål; steg 4–5 minutter.",
+        "Vend nudler og sojasauce i panden og varm igennem."
+      ],
+      "minutes": 25,
+      "image": null
+    },
+    {
+      "id": "beef-pasta",
+      "name": "Krydret pasta med oksekød og tomat",
+      "protein": "beef",
+      "servings": 2,
+      "ingredients": [
+        [
+          "hakket oksekød",
+          300,
+          "g"
+        ],
+        [
+          "pasta",
+          180,
+          "g"
+        ],
+        [
+          "hakkede tomater",
+          400,
+          "g"
+        ],
+        [
+          "løg",
+          100,
+          "g"
+        ],
+        [
+          "hvidløg",
+          6,
+          "g"
+        ],
+        [
+          "revet ost",
+          50,
+          "g"
+        ],
+        [
+          "olie",
+          10,
+          "ml"
+        ],
+        [
+          "chili",
+          1,
+          "g"
+        ],
+        [
+          "salt",
+          3,
+          "g"
+        ]
+      ],
+      "short_recipe": [
+        "Kog pasta og lav en krydret tomatsauce med oksekød. Server med revet ost."
+      ],
+      "detailed_recipe": [
+        "Kog pasta efter pakkens anvisning.",
+        "Hak løg og hvidløg. Steg løg i olie 3 minutter, tilsæt oksekød og brun grundigt.",
+        "Tilsæt hvidløg, chili og tomater. Simr 15 minutter, til kødet er gennemstegt (71 °C), og smag til med salt.",
+        "Vend pastaen i saucen og drys med ost."
+      ],
+      "minutes": 30,
+      "image": null
+    },
+    {
+      "id": "salmon",
+      "name": "Ovnbagt laks med ris og spidskål",
+      "protein": "fish",
+      "servings": 2,
+      "ingredients": [
+        [
+          "laks",
+          300,
+          "g"
+        ],
+        [
+          "ris",
+          150,
+          "g"
+        ],
+        [
+          "spidskål",
+          300,
+          "g"
+        ],
+        [
+          "citron",
+          1,
+          "stk"
+        ],
+        [
+          "smør",
+          20,
+          "g"
+        ],
+        [
+          "salt",
+          3,
+          "g"
+        ]
+      ],
+      "short_recipe": [
+        "Bag laks med citron, kog ris og steg spidskål i smør."
+      ],
+      "detailed_recipe": [
+        "Forvarm ovnen til 190 °C varmluft. Kog ris efter pakkens anvisning.",
+        "Læg laks i et ovnfast fad, dryp med citron og krydr med lidt salt.",
+        "Bag 12–18 minutter afhængigt af tykkelsen, til fisken når 63 °C i centrum.",
+        "Snit spidskål og steg i smør ved middelhøj varme 5–7 minutter. Smag til og server."
+      ],
+      "minutes": 30,
+      "image": null
+    },
+    {
+      "id": "chicken-tomato",
+      "name": "Kylling i tomatsauce med pasta",
+      "protein": "chicken",
+      "servings": 2,
+      "ingredients": [
+        [
+          "kyllingebryst",
+          350,
+          "g"
+        ],
+        [
+          "pasta",
+          180,
+          "g"
+        ],
+        [
+          "hakkede tomater",
+          400,
+          "g"
+        ],
+        [
+          "løg",
+          100,
+          "g"
+        ],
+        [
+          "hvidløg",
+          6,
+          "g"
+        ],
+        [
+          "olie",
+          10,
+          "ml"
+        ],
+        [
+          "paprika",
+          4,
+          "g"
+        ],
+        [
+          "salt",
+          3,
+          "g"
+        ]
+      ],
+      "short_recipe": [
+        "Kog pasta. Steg kylling og løg, tilsæt tomat og paprika, og lad simre."
+      ],
+      "detailed_recipe": [
+        "Kog pasta efter pakkens anvisning.",
+        "Hak løg og hvidløg og skær kylling i tern.",
+        "Steg løg i olie 3 minutter, tilsæt kylling og paprika og brun i 5 minutter.",
+        "Tilsæt tomater og hvidløg, simr 10–15 minutter til kyllingen når 75 °C. Smag til og server."
+      ],
+      "minutes": 30,
+      "image": null
+    }
+  ]
+}
