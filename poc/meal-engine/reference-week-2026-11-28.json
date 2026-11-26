@@ -1,0 +1,875 @@
+{
+  "schema_version": 1,
+  "environment": "test",
+  "publish": false,
+  "synthetic": false,
+  "approved": false,
+  "shopping_date": "2026-11-28",
+  "period_end": "2026-12-04",
+  "provenance": "Historical conversation reference only; prices reported earlier, not independently verified in this export. Not a validated price catalog.",
+  "recipes": [
+    {
+      "id": "reference-1",
+      "name": "Koreansk grisemørbrad",
+      "protein": "pork",
+      "servings": 2,
+      "ingredients": [
+        [
+          "grisemørbrad",
+          400,
+          "g"
+        ],
+        [
+          "ris",
+          150,
+          "g"
+        ],
+        [
+          "gulerødder",
+          150,
+          "g"
+        ],
+        [
+          "hvidkål",
+          150,
+          "g"
+        ],
+        [
+          "løg",
+          100,
+          "g"
+        ],
+        [
+          "hvidløg",
+          6,
+          "g"
+        ],
+        [
+          "sojasauce",
+          25,
+          "ml"
+        ],
+        [
+          "rapsolie",
+          15,
+          "ml"
+        ],
+        [
+          "stødt ingefær",
+          2,
+          "g"
+        ],
+        [
+          "frisk chili",
+          5,
+          "g"
+        ],
+        [
+          "salt",
+          2,
+          "g"
+        ],
+        [
+          "sort peber",
+          1,
+          "g"
+        ]
+      ],
+      "detailed_recipe": [
+        "Kog ris efter pakkens anvisning. Snit grøntsager og skær mørbrad i strimler.",
+        "Brun kødet i olie ved høj varme, steg grøntsagerne og tilsæt hvidløg, soja, ingefær, chili, salt og peber. Tilbered kødet helt og server med ris."
+      ],
+      "short_recipe": [
+        "Kog ris efter pakkens anvisning. Snit grøntsager og skær mørbrad i strimler. Brun kødet i olie ved høj varme, steg grøntsagerne og tilsæt hvidløg, soja, ingefær, chili, salt og peber. Tilbered kødet helt og server med ris."
+      ],
+      "image": null
+    },
+    {
+      "id": "reference-2",
+      "name": "Marokkanske kyllingeoverlår",
+      "protein": "chicken",
+      "servings": 2,
+      "ingredients": [
+        [
+          "kyllingeoverlår",
+          800,
+          "g"
+        ],
+        [
+          "kartofler",
+          600,
+          "g"
+        ],
+        [
+          "gulerødder",
+          300,
+          "g"
+        ],
+        [
+          "løg",
+          150,
+          "g"
+        ],
+        [
+          "hvidløg",
+          6,
+          "g"
+        ],
+        [
+          "rapsolie",
+          15,
+          "ml"
+        ],
+        [
+          "paprika",
+          4,
+          "g"
+        ],
+        [
+          "spidskommen",
+          4,
+          "g"
+        ],
+        [
+          "stødt ingefær",
+          2,
+          "g"
+        ],
+        [
+          "salt",
+          3,
+          "g"
+        ],
+        [
+          "sort peber",
+          1,
+          "g"
+        ]
+      ],
+      "detailed_recipe": [
+        "Forvarm ovnen til 200 °C varmluft. Skær kartofler og grøntsager i grove stykker.",
+        "Vend grøntsager og kylling med olie og krydderier. Bag ca. 40–50 minutter, til kartoflerne er møre og kyllingen når 75 °C i centrum uden at måle mod ben."
+      ],
+      "short_recipe": [
+        "Forvarm ovnen til 200 °C varmluft. Skær kartofler og grøntsager i grove stykker. Vend grøntsager og kylling med olie og krydderier. Bag ca. 40–50 minutter, til kartoflerne er møre og kyllingen når 75 °C i centrum uden at måle mod ben."
+      ],
+      "image": null
+    },
+    {
+      "id": "reference-3",
+      "name": "Chili con carne",
+      "protein": "beef",
+      "servings": 2,
+      "ingredients": [
+        [
+          "hakket oksekød",
+          400,
+          "g"
+        ],
+        [
+          "ris",
+          150,
+          "g"
+        ],
+        [
+          "hakkede tomater",
+          400,
+          "g"
+        ],
+        [
+          "kidneybønner",
+          240,
+          "g"
+        ],
+        [
+          "løg",
+          150,
+          "g"
+        ],
+        [
+          "gulerødder",
+          100,
+          "g"
+        ],
+        [
+          "hvidløg",
+          6,
+          "g"
+        ],
+        [
+          "rapsolie",
+          10,
+          "ml"
+        ],
+        [
+          "paprika",
+          4,
+          "g"
+        ],
+        [
+          "spidskommen",
+          4,
+          "g"
+        ],
+        [
+          "frisk chili",
+          5,
+          "g"
+        ],
+        [
+          "salt",
+          3,
+          "g"
+        ],
+        [
+          "sort peber",
+          1,
+          "g"
+        ]
+      ],
+      "detailed_recipe": [
+        "Kog ris. Hak grøntsager, skyl og afdryp kogte kidneybønner.",
+        "Brun kødet i olie, tilsæt løg, gulerødder, hvidløg og krydderier. Tilsæt tomater og bønner; simr 15–20 minutter til kødet er gennemstegt."
+      ],
+      "short_recipe": [
+        "Kog ris. Hak grøntsager, skyl og afdryp kogte kidneybønner. Brun kødet i olie, tilsæt løg, gulerødder, hvidløg og krydderier. Tilsæt tomater og bønner; simr 15–20 minutter til kødet er gennemstegt."
+      ],
+      "image": null
+    },
+    {
+      "id": "reference-4",
+      "name": "Græske kødboller",
+      "protein": "other_meat",
+      "servings": 2,
+      "ingredients": [
+        [
+          "hakket grise- og kalvekød",
+          400,
+          "g"
+        ],
+        [
+          "kartofler",
+          500,
+          "g"
+        ],
+        [
+          "hvidkål",
+          300,
+          "g"
+        ],
+        [
+          "løg",
+          100,
+          "g"
+        ],
+        [
+          "yoghurt naturel",
+          150,
+          "g"
+        ],
+        [
+          "hvidløg",
+          6,
+          "g"
+        ],
+        [
+          "rapsolie",
+          15,
+          "ml"
+        ],
+        [
+          "oregano",
+          3,
+          "g"
+        ],
+        [
+          "paprika",
+          2,
+          "g"
+        ],
+        [
+          "eddike",
+          10,
+          "ml"
+        ],
+        [
+          "salt",
+          3,
+          "g"
+        ],
+        [
+          "sort peber",
+          1,
+          "g"
+        ]
+      ],
+      "detailed_recipe": [
+        "Bag kartoffelbåde med halvdelen af olien ved 200 °C varmluft i cirka 30 minutter.",
+        "Rør kød med finthakket løg, oregano, paprika og halvdelen af hvidløget. Form små kødboller, steg i resten af olien til gennemstegt.",
+        "Snit kålen, vend med eddike og lidt salt. Rør yoghurt med resten af hvidløget og smag til."
+      ],
+      "short_recipe": [
+        "Bag kartoffelbåde med halvdelen af olien ved 200 °C varmluft i cirka 30 minutter. Rør kød med finthakket løg, oregano, paprika og halvdelen af hvidløget. Form små kødboller, steg i resten af olien til gennemstegt. Snit kålen, vend med eddike og lidt salt. Rør yoghurt med resten af hvidløget og smag til."
+      ],
+      "image": null
+    },
+    {
+      "id": "reference-5",
+      "name": "Indisk grisemørbrad i kokoskarry",
+      "protein": "pork",
+      "servings": 2,
+      "ingredients": [
+        [
+          "grisemørbrad",
+          400,
+          "g"
+        ],
+        [
+          "ris",
+          150,
+          "g"
+        ],
+        [
+          "kokosmælk",
+          400,
+          "ml"
+        ],
+        [
+          "gulerødder",
+          150,
+          "g"
+        ],
+        [
+          "hvidkål",
+          150,
+          "g"
+        ],
+        [
+          "løg",
+          150,
+          "g"
+        ],
+        [
+          "hvidløg",
+          6,
+          "g"
+        ],
+        [
+          "rapsolie",
+          10,
+          "ml"
+        ],
+        [
+          "karry",
+          6,
+          "g"
+        ],
+        [
+          "stødt ingefær",
+          2,
+          "g"
+        ],
+        [
+          "frisk chili",
+          5,
+          "g"
+        ],
+        [
+          "salt",
+          3,
+          "g"
+        ]
+      ],
+      "detailed_recipe": [
+        "Kog ris. Skær kød, løg og grøntsager i mundrette stykker.",
+        "Steg løg, kød, karry og ingefær i olie. Tilsæt grøntsager, chili og kokosmælk. Simr 10–15 minutter til kødet er tilberedt; smag til med salt."
+      ],
+      "short_recipe": [
+        "Kog ris. Skær kød, løg og grøntsager i mundrette stykker. Steg løg, kød, karry og ingefær i olie. Tilsæt grøntsager, chili og kokosmælk. Simr 10–15 minutter til kødet er tilberedt; smag til med salt."
+      ],
+      "image": null
+    },
+    {
+      "id": "reference-6",
+      "name": "Italiensk kylling i tomatsauce",
+      "protein": "chicken",
+      "servings": 2,
+      "ingredients": [
+        [
+          "kyllingeoverlår",
+          800,
+          "g"
+        ],
+        [
+          "spaghetti",
+          180,
+          "g"
+        ],
+        [
+          "hakkede tomater",
+          400,
+          "g"
+        ],
+        [
+          "løg",
+          150,
+          "g"
+        ],
+        [
+          "gulerødder",
+          150,
+          "g"
+        ],
+        [
+          "hvidløg",
+          6,
+          "g"
+        ],
+        [
+          "rapsolie",
+          15,
+          "ml"
+        ],
+        [
+          "oregano",
+          3,
+          "g"
+        ],
+        [
+          "paprika",
+          2,
+          "g"
+        ],
+        [
+          "salt",
+          3,
+          "g"
+        ],
+        [
+          "sort peber",
+          1,
+          "g"
+        ]
+      ],
+      "detailed_recipe": [
+        "Brun kylling i olie. Tilsæt hakket løg, gulerødder, hvidløg og krydderier.",
+        "Tilsæt tomater, læg låg på og simr 35–45 minutter, til kyllingen når 75 °C i centrum. Kog spaghetti efter pakkens anvisning."
+      ],
+      "short_recipe": [
+        "Brun kylling i olie. Tilsæt hakket løg, gulerødder, hvidløg og krydderier. Tilsæt tomater, læg låg på og simr 35–45 minutter, til kyllingen når 75 °C i centrum. Kog spaghetti efter pakkens anvisning."
+      ],
+      "image": null
+    },
+    {
+      "id": "reference-7",
+      "name": "Tyrkiske köfte",
+      "protein": "other_meat",
+      "servings": 2,
+      "ingredients": [
+        [
+          "hakket grise- og kalvekød",
+          400,
+          "g"
+        ],
+        [
+          "ris",
+          150,
+          "g"
+        ],
+        [
+          "hvidkål",
+          150,
+          "g"
+        ],
+        [
+          "gulerødder",
+          150,
+          "g"
+        ],
+        [
+          "løg",
+          100,
+          "g"
+        ],
+        [
+          "yoghurt naturel",
+          200,
+          "g"
+        ],
+        [
+          "hvidløg",
+          6,
+          "g"
+        ],
+        [
+          "rapsolie",
+          15,
+          "ml"
+        ],
+        [
+          "spidskommen",
+          4,
+          "g"
+        ],
+        [
+          "paprika",
+          4,
+          "g"
+        ],
+        [
+          "frisk chili",
+          5,
+          "g"
+        ],
+        [
+          "eddike",
+          10,
+          "ml"
+        ],
+        [
+          "salt",
+          3,
+          "g"
+        ],
+        [
+          "sort peber",
+          1,
+          "g"
+        ]
+      ],
+      "detailed_recipe": [
+        "Kog ris. Bland kød med hakket løg, spidskommen, paprika og chili. Form aflange kødboller.",
+        "Steg i olie til gennemstegt. Snit kål og gulerødder, vend med eddike. Rør yoghurt og hvidløg sammen; smag til med salt og peber."
+      ],
+      "short_recipe": [
+        "Kog ris. Bland kød med hakket løg, spidskommen, paprika og chili. Form aflange kødboller. Steg i olie til gennemstegt. Snit kål og gulerødder, vend med eddike. Rør yoghurt og hvidløg sammen; smag til med salt og peber."
+      ],
+      "image": null
+    }
+  ],
+  "rows": [
+    {
+      "ingredient": "grisemørbrad",
+      "purchased": 1000,
+      "unit": "g",
+      "price_cents": 4000,
+      "store": "REMA 1000",
+      "price_status": "reported_offer",
+      "used": 800,
+      "pantry": false,
+      "source_url": null,
+      "independently_verified": false
+    },
+    {
+      "ingredient": "kyllingeoverlår",
+      "purchased": 1600,
+      "unit": "g",
+      "price_cents": 4000,
+      "store": "REMA 1000",
+      "price_status": "reported_offer",
+      "used": 1600,
+      "pantry": false,
+      "source_url": null,
+      "independently_verified": false
+    },
+    {
+      "ingredient": "hakket oksekød",
+      "purchased": 400,
+      "unit": "g",
+      "price_cents": 2900,
+      "store": "REMA 1000",
+      "price_status": "reported_offer",
+      "used": 400,
+      "pantry": false,
+      "source_url": null,
+      "independently_verified": false
+    },
+    {
+      "ingredient": "ris",
+      "purchased": 1000,
+      "unit": "g",
+      "price_cents": 1502,
+      "store": "REMA 1000",
+      "price_status": "reported_normal",
+      "used": 600,
+      "pantry": false,
+      "source_url": null,
+      "independently_verified": false
+    },
+    {
+      "ingredient": "hakkede tomater",
+      "purchased": 800,
+      "unit": "g",
+      "price_cents": 1274,
+      "store": "REMA 1000",
+      "price_status": "reported_normal",
+      "used": 800,
+      "pantry": false,
+      "source_url": null,
+      "independently_verified": false
+    },
+    {
+      "ingredient": "kokosmælk",
+      "purchased": 400,
+      "unit": "ml",
+      "price_cents": 895,
+      "store": "REMA 1000",
+      "price_status": "reported_normal",
+      "used": 400,
+      "pantry": false,
+      "source_url": null,
+      "independently_verified": false
+    },
+    {
+      "ingredient": "spaghetti",
+      "purchased": 1000,
+      "unit": "g",
+      "price_cents": 895,
+      "store": "REMA 1000",
+      "price_status": "reported_normal",
+      "used": 180,
+      "pantry": false,
+      "source_url": null,
+      "independently_verified": false
+    },
+    {
+      "ingredient": "gulerødder",
+      "purchased": 1000,
+      "unit": "g",
+      "price_cents": 1200,
+      "store": "REMA 1000",
+      "price_status": "reported_normal",
+      "used": 1000,
+      "pantry": false,
+      "source_url": null,
+      "independently_verified": false
+    },
+    {
+      "ingredient": "løg",
+      "purchased": 1000,
+      "unit": "g",
+      "price_cents": 1200,
+      "store": "REMA 1000",
+      "price_status": "reported_normal",
+      "used": 900,
+      "pantry": false,
+      "source_url": null,
+      "independently_verified": false
+    },
+    {
+      "ingredient": "hvidkål",
+      "purchased": 1000,
+      "unit": "g",
+      "price_cents": 700,
+      "store": "REMA 1000",
+      "price_status": "approximate_weight",
+      "used": 750,
+      "pantry": false,
+      "source_url": null,
+      "independently_verified": false
+    },
+    {
+      "ingredient": "yoghurt naturel",
+      "purchased": 1000,
+      "unit": "g",
+      "price_cents": 995,
+      "store": "REMA 1000",
+      "price_status": "reported_normal",
+      "used": 350,
+      "pantry": false,
+      "source_url": null,
+      "independently_verified": false
+    },
+    {
+      "ingredient": "hvidløg",
+      "purchased": 90,
+      "unit": "g",
+      "price_cents": 600,
+      "store": "REMA 1000",
+      "price_status": "reported_normal",
+      "used": 42,
+      "pantry": false,
+      "source_url": null,
+      "independently_verified": false
+    },
+    {
+      "ingredient": "sojasauce",
+      "purchased": 250,
+      "unit": "ml",
+      "price_cents": 1050,
+      "store": "REMA 1000",
+      "price_status": "reported_normal",
+      "used": 25,
+      "pantry": false,
+      "source_url": null,
+      "independently_verified": false
+    },
+    {
+      "ingredient": "kidneybønner",
+      "purchased": null,
+      "unit": "g",
+      "price_cents": 1430,
+      "store": "REMA 1000",
+      "price_status": "drained_weight_unverified",
+      "used": 240,
+      "pantry": false,
+      "source_url": null,
+      "independently_verified": false
+    },
+    {
+      "ingredient": "frisk chili",
+      "purchased": 70,
+      "unit": "g",
+      "price_cents": 1300,
+      "store": "REMA 1000",
+      "price_status": "reported_normal",
+      "used": 20,
+      "pantry": false,
+      "source_url": null,
+      "independently_verified": false
+    },
+    {
+      "ingredient": "kartofler",
+      "purchased": 2000,
+      "unit": "g",
+      "price_cents": 1200,
+      "store": "SuperBrugsen Otterup",
+      "price_status": "reported_offer",
+      "used": 1100,
+      "pantry": false,
+      "source_url": null,
+      "independently_verified": false
+    },
+    {
+      "ingredient": "hakket grise- og kalvekød",
+      "purchased": 800,
+      "unit": "g",
+      "price_cents": 6400,
+      "store": "SuperBrugsen Otterup",
+      "price_status": "reported_offer_minimum_weight",
+      "used": 800,
+      "pantry": false,
+      "source_url": null,
+      "independently_verified": false
+    },
+    {
+      "ingredient": "rapsolie",
+      "purchased": 1000,
+      "unit": "ml",
+      "price_cents": 1909,
+      "store": "REMA 1000",
+      "price_status": "reported_normal",
+      "used": 95,
+      "pantry": true,
+      "source_url": null,
+      "independently_verified": false
+    },
+    {
+      "ingredient": "paprika",
+      "purchased": 100,
+      "unit": "g",
+      "price_cents": 595,
+      "store": "REMA 1000",
+      "price_status": "reported_normal",
+      "used": 16,
+      "pantry": true,
+      "source_url": null,
+      "independently_verified": false
+    },
+    {
+      "ingredient": "spidskommen",
+      "purchased": 33,
+      "unit": "g",
+      "price_cents": 2139,
+      "store": "REMA 1000",
+      "price_status": "reported_normal",
+      "used": 12,
+      "pantry": true,
+      "source_url": null,
+      "independently_verified": false
+    },
+    {
+      "ingredient": "oregano",
+      "purchased": 15,
+      "unit": "g",
+      "price_cents": 400,
+      "store": "REMA 1000",
+      "price_status": "reported_normal",
+      "used": 6,
+      "pantry": true,
+      "source_url": null,
+      "independently_verified": false
+    },
+    {
+      "ingredient": "salt",
+      "purchased": 1000,
+      "unit": "g",
+      "price_cents": 475,
+      "store": "REMA 1000",
+      "price_status": "reported_normal",
+      "used": 20,
+      "pantry": true,
+      "source_url": null,
+      "independently_verified": false
+    },
+    {
+      "ingredient": "sort peber",
+      "purchased": 100,
+      "unit": "g",
+      "price_cents": 750,
+      "store": "REMA 1000",
+      "price_status": "reported_normal",
+      "used": 6,
+      "pantry": true,
+      "source_url": null,
+      "independently_verified": false
+    },
+    {
+      "ingredient": "eddike",
+      "purchased": 1000,
+      "unit": "ml",
+      "price_cents": 650,
+      "store": "REMA 1000",
+      "price_status": "reported_normal",
+      "used": 20,
+      "pantry": true,
+      "source_url": null,
+      "independently_verified": false
+    },
+    {
+      "ingredient": "stødt ingefær",
+      "purchased": 18,
+      "unit": "g",
+      "price_cents": 1200,
+      "store": "REMA 1000",
+      "price_status": "reported_normal",
+      "used": 6,
+      "pantry": true,
+      "source_url": null,
+      "independently_verified": false
+    },
+    {
+      "ingredient": "karry",
+      "purchased": 90,
+      "unit": "g",
+      "price_cents": 600,
+      "store": null,
+      "price_status": "reported_external_reference",
+      "used": 6,
+      "pantry": true,
+      "source_url": null,
+      "independently_verified": false
+    }
+  ],
+  "budget": {
+    "without_pantry_cents": 31541,
+    "with_pantry_purchase_cents": 40259
+  },
+  "blockers": [
+    "Source URLs and offer dates not retained at row level; independently verify every price",
+    "Confirm drained bean weight and cabbage actual weight",
+    "External curry price is a reported reference, not local offer",
+    "Review food storage, nutrition and recipe details",
+    "No comparison of alternative baskets or automated reproduction"
+  ]
+}
