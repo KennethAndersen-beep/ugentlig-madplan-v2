@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "environment": "test",
+  "synthetic": true,
+  "publish": false,
+  "test_id": "scheduled-probe",
+  "items": [
+    {
+      "ingredient": "ris",
+      "quantity": 1000,
+      "unit": "g",
+      "price_dkk": 15,
+      "quality": "synthetic"
+    }
+  ]
+}
