@@ -1,0 +1,22 @@
+name: Meal engine regression POC
+on:
+  push:
+    branches: [poc-meal-engine]
+    paths:
+      - 'poc/meal-engine/**'
+      - '.github/workflows/meal-engine-test.yml'
+permissions:
+  contents: read
+jobs:
+  regression:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    defaults:
+      run:
+        working-directory: poc/meal-engine
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run all regression tests
+        run: |
+          python3 --version
+          python3 -m unittest discover -v
