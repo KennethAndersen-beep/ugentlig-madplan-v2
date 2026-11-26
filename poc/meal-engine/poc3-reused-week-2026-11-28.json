@@ -1,0 +1,1164 @@
+{
+  "schema_version": 1,
+  "environment": "test",
+  "publish": false,
+  "approved": false,
+  "source_run_id": "4ce4080d-4a18-8323-80bd-21464d2dbb06",
+  "source_chat": "https://chatgpt.com/c/6a4549ad-35ac-83ed-a29d-89b7a12185e7",
+  "source_truncated": true,
+  "shopping_date": "2026-11-28",
+  "recipes": [
+    {
+      "date": "2026-11-28",
+      "name": "Lørdag – indisk yoghurtkylling i tomatsauce",
+      "ingredients": [
+        "450 g kyllingebrystfilet",
+        "400 g hakkede tomater (ca. 1 dåse)",
+        "150 g yoghurt naturel (ca. 1½ dl)",
+        "150 g gulerødder (ca. 2 mellemstore)",
+        "150 g løg (ca. 1 stort løg)",
+        "150 g tørre ris (ca. 2 dl)",
+        "10 g frisk ingefær (ca. 2 tsk. fintrevet)",
+        "6 g hvidløg (ca. 2 fed)",
+        "10 ml rapsolie (ca. 2 tsk.)",
+        "4 g stødt spidskommen (ca. 2 tsk.)",
+        "4 g paprika (ca. 2 tsk.)",
+        "2 g chilipulver (ca. 1 tsk.)",
+        "3 g salt (ca. ½ tsk.)",
+        "1 g sort peber (ca. ½ tsk.)"
+      ],
+      "steps": [
+        "Kog risene efter pakkens anvisning. Skær kyllingen i mundrette stykker, løget i tern og gulerødderne i tynde skiver.",
+        "Bland yoghurt, ingefær, hvidløg, spidskommen, paprika, chili, salt og peber. Vend kyllingen i blandingen.",
+        "Varm olien i en gryde. Steg løg og gulerødder i 4 minutter. Tilsæt kylling og marinade, og steg i yderligere 5 minutter.",
+        "Tilsæt tomaterne, og lad retten simre 12–15 minutter, til kyllingen er helt gennemstegt."
+      ],
+      "normalized": [
+        {
+          "ingredient": "kyllingebrystfilet",
+          "quantity": 450,
+          "unit": "g"
+        },
+        {
+          "ingredient": "hakkede tomater",
+          "quantity": 400,
+          "unit": "g"
+        },
+        {
+          "ingredient": "yoghurt naturel",
+          "quantity": 150,
+          "unit": "g"
+        },
+        {
+          "ingredient": "gulerødder",
+          "quantity": 150,
+          "unit": "g"
+        },
+        {
+          "ingredient": "løg",
+          "quantity": 150,
+          "unit": "g"
+        },
+        {
+          "ingredient": "ris",
+          "quantity": 150,
+          "unit": "g"
+        },
+        {
+          "ingredient": "ingefær",
+          "quantity": 10,
+          "unit": "g"
+        },
+        {
+          "ingredient": "hvidløg",
+          "quantity": 6,
+          "unit": "g"
+        },
+        {
+          "ingredient": "rapsolie",
+          "quantity": 10,
+          "unit": "ml"
+        },
+        {
+          "ingredient": "spidskommen",
+          "quantity": 4,
+          "unit": "g"
+        },
+        {
+          "ingredient": "paprika",
+          "quantity": 4,
+          "unit": "g"
+        },
+        {
+          "ingredient": "chilipulver",
+          "quantity": 2,
+          "unit": "g"
+        },
+        {
+          "ingredient": "salt",
+          "quantity": 3,
+          "unit": "g"
+        },
+        {
+          "ingredient": "sort peber",
+          "quantity": 1,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-29",
+      "name": "Søndag – koreansk-inspireret svinemørbrad",
+      "ingredients": [
+        "600 g svinemørbrad",
+        "300 g peberfrugt (ca. 2–3 peberfrugter)",
+        "200 g hvidkål",
+        "150 g gulerødder (ca. 2 mellemstore)",
+        "100 g løg (ca. 1 lille løg)",
+        "150 g tørre ris (ca. 2 dl)",
+        "10 g frisk ingefær (ca. 2 tsk. fintrevet)",
+        "6 g hvidløg (ca. 2 fed)",
+        "25 ml sojasauce (ca. 1 spsk. plus 2 tsk.)",
+        "15 g honning (ca. 2 tsk.)",
+        "15 ml rapsolie (1 spsk.)",
+        "2 g chilipulver (ca. 1 tsk.)",
+        "2 g salt (ca. ⅓ tsk.)",
+        "1 g sort peber (ca. ½ tsk.)"
+      ],
+      "steps": [
+        "Kog risene. Afpuds mørbraden, og skær den i tynde strimler på tværs af fibrene. Snit grøntsagerne.",
+        "Rør sojasauce, honning, ingefær, hvidløg og chili sammen.",
+        "Varm halvdelen af olien på en stor pande. Brun kødet ad to omgange, så det steger frem for at koge. Læg det til side.",
+        "Steg grøntsagerne i resten af olien i 4–5 minutter. Kom kødet og saucen tilbage på panden, og varm retten igennem i cirka 2 minutter."
+      ],
+      "normalized": [
+        {
+          "ingredient": "svinemørbrad",
+          "quantity": 600,
+          "unit": "g"
+        },
+        {
+          "ingredient": "peberfrugt",
+          "quantity": 300,
+          "unit": "g"
+        },
+        {
+          "ingredient": "hvidkål",
+          "quantity": 200,
+          "unit": "g"
+        },
+        {
+          "ingredient": "gulerødder",
+          "quantity": 150,
+          "unit": "g"
+        },
+        {
+          "ingredient": "løg",
+          "quantity": 100,
+          "unit": "g"
+        },
+        {
+          "ingredient": "ris",
+          "quantity": 150,
+          "unit": "g"
+        },
+        {
+          "ingredient": "ingefær",
+          "quantity": 10,
+          "unit": "g"
+        },
+        {
+          "ingredient": "hvidløg",
+          "quantity": 6,
+          "unit": "g"
+        },
+        {
+          "ingredient": "sojasauce",
+          "quantity": 25,
+          "unit": "ml"
+        },
+        {
+          "ingredient": "honning",
+          "quantity": 15,
+          "unit": "g"
+        },
+        {
+          "ingredient": "rapsolie",
+          "quantity": 15,
+          "unit": "ml"
+        },
+        {
+          "ingredient": "chilipulver",
+          "quantity": 2,
+          "unit": "g"
+        },
+        {
+          "ingredient": "salt",
+          "quantity": 2,
+          "unit": "g"
+        },
+        {
+          "ingredient": "sort peber",
+          "quantity": 1,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-30",
+      "name": "Mandag – chili con carne",
+      "ingredients": [
+        "400 g hakket oksekød",
+        "400 g hakkede tomater (ca. 1 dåse)",
+        "252 g kidneybønner inklusive lage (ca. 1 dåse)",
+        "150 g gulerødder (ca. 2 mellemstore)",
+        "150 g løg (ca. 1 stort løg)",
+        "150 g tørre ris (ca. 2 dl)",
+        "6 g hvidløg (ca. 2 fed)",
+        "10 ml rapsolie (ca. 2 tsk.)",
+        "4 g stødt spidskommen (ca. 2 tsk.)",
+        "4 g paprika (ca. 2 tsk.)",
+        "2 g chilipulver (ca. 1 tsk.)",
+        "3 g salt (ca. ½ tsk.)",
+        "1 g sort peber (ca. ½ tsk.)"
+      ],
+      "steps": [
+        "Kog risene. Skær løg og gulerødder i små tern. Skyl og afdryp bønnerne.",
+        "Varm olien i en gryde. Brun kødet grundigt i 5–6 minutter, mens det deles med en grydeske.",
+        "Tilsæt løg, gulerødder, hvidløg og krydderier. Steg i 3 minutter.",
+        "Tilsæt tomater og bønner. Lad retten simre uden låg i cirka 15 minutter."
+      ],
+      "normalized": [
+        {
+          "ingredient": "hakket oksekød",
+          "quantity": 400,
+          "unit": "g"
+        },
+        {
+          "ingredient": "hakkede tomater",
+          "quantity": 400,
+          "unit": "g"
+        },
+        {
+          "ingredient": "kidneybønner",
+          "quantity": 252,
+          "unit": "g"
+        },
+        {
+          "ingredient": "gulerødder",
+          "quantity": 150,
+          "unit": "g"
+        },
+        {
+          "ingredient": "løg",
+          "quantity": 150,
+          "unit": "g"
+        },
+        {
+          "ingredient": "ris",
+          "quantity": 150,
+          "unit": "g"
+        },
+        {
+          "ingredient": "hvidløg",
+          "quantity": 6,
+          "unit": "g"
+        },
+        {
+          "ingredient": "rapsolie",
+          "quantity": 10,
+          "unit": "ml"
+        },
+        {
+          "ingredient": "spidskommen",
+          "quantity": 4,
+          "unit": "g"
+        },
+        {
+          "ingredient": "paprika",
+          "quantity": 4,
+          "unit": "g"
+        },
+        {
+          "ingredient": "chilipulver",
+          "quantity": 2,
+          "unit": "g"
+        },
+        {
+          "ingredient": "salt",
+          "quantity": 3,
+          "unit": "g"
+        },
+        {
+          "ingredient": "sort peber",
+          "quantity": 1,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "date": "2026-12-01",
+      "name": "Tirsdag – tyrkisk krydret grisekød",
+      "ingredients": [
+        "500 g hakket grisekød",
+        "200 g hvidkål",
+        "200 g yoghurt naturel (ca. 2 dl)",
+        "200 g agurk (ca. ½–⅔ agurk)",
+        "150 g løg (ca. 1 stort løg)",
+        "150 g tørre ris (ca. 2 dl)",
+        "6 g hvidløg (ca. 2 fed)",
+        "15 ml rapsolie (1 spsk.)",
+        "10 ml eddike (ca. 2 tsk.)",
+        "4 g stødt spidskommen (ca. 2 tsk.)",
+        "4 g paprika (ca. 2 tsk.)",
+        "3 g tørret oregano (ca. 1½ tsk.)",
+        "2 g chilipulver (ca. 1 tsk.)",
+        "3 g salt (ca. ½ tsk.; 2 g til kødet og 1 g til kålen)",
+        "1 g sort peber (ca. ½ tsk.)"
+      ],
+      "steps": [
+        "Kog risene. Snit kål og løg fint. Riv eller hak agurken.",
+        "Varm olien på en pande. Brun kødet og løget i 7–8 minutter. Tilsæt spidskommen, paprika, oregano, chili, 2 g salt og peber.",
+        "Vend kålen med eddike og 1 g salt. Lad den stå i mindst 5 minutter.",
+        "Rør yoghurt, agurk og presset hvidløg sammen. Server kødet med ris, kålsalat og dressing."
+      ],
+      "normalized": [
+        {
+          "ingredient": "hakket grisekød",
+          "quantity": 500,
+          "unit": "g"
+        },
+        {
+          "ingredient": "hvidkål",
+          "quantity": 200,
+          "unit": "g"
+        },
+        {
+          "ingredient": "yoghurt naturel",
+          "quantity": 200,
+          "unit": "g"
+        },
+        {
+          "ingredient": "agurk",
+          "quantity": 200,
+          "unit": "g"
+        },
+        {
+          "ingredient": "løg",
+          "quantity": 150,
+          "unit": "g"
+        },
+        {
+          "ingredient": "ris",
+          "quantity": 150,
+          "unit": "g"
+        },
+        {
+          "ingredient": "hvidløg",
+          "quantity": 6,
+          "unit": "g"
+        },
+        {
+          "ingredient": "rapsolie",
+          "quantity": 15,
+          "unit": "ml"
+        },
+        {
+          "ingredient": "eddike",
+          "quantity": 10,
+          "unit": "ml"
+        },
+        {
+          "ingredient": "spidskommen",
+          "quantity": 4,
+          "unit": "g"
+        },
+        {
+          "ingredient": "paprika",
+          "quantity": 4,
+          "unit": "g"
+        },
+        {
+          "ingredient": "oregano",
+          "quantity": 3,
+          "unit": "g"
+        },
+        {
+          "ingredient": "chilipulver",
+          "quantity": 2,
+          "unit": "g"
+        },
+        {
+          "ingredient": "salt",
+          "quantity": 3,
+          "unit": "g"
+        },
+        {
+          "ingredient": "sort peber",
+          "quantity": 1,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "date": "2026-12-02",
+      "name": "Onsdag – marokkanske kyllingeoverlår",
+      "ingredients": [
+        "800 g kyllingeoverlår med ben",
+        "800 g kartofler",
+        "300 g gulerødder (ca. 4 mellemstore)",
+        "150 g løg (ca. 1 stort løg)",
+        "400 g hakkede tomater (ca. 1 dåse)",
+        "6 g hvidløg (ca. 2 fed)",
+        "15 ml rapsolie (1 spsk.)",
+        "4 g stødt spidskommen (ca. 2 tsk.)",
+        "4 g paprika (ca. 2 tsk.)",
+        "2 g tørret oregano (ca. 1 tsk.)",
+        "1 g chilipulver (ca. ½ tsk.)",
+        "3 g salt (ca. ½ tsk.)",
+        "1 g sort peber (ca. ½ tsk.)"
+      ],
+      "steps": [
+        "Tænd ovnen på 210 °C almindelig ovn. Skær kartofler, gulerødder og løg i grove stykker.",
+        "Fordel grøntsagerne i et ovnfast fad. Vend dem med halvdelen af olien og cirka halvdelen af krydderierne.",
+        "Gnid kyllingen med resten af olien og krydderierne. Læg stykkerne oven på grøntsagerne, og hæld tomaterne rundt om.",
+        "Bag retten i 40–45 minutter. Kyllingen er færdig, når kødsaften er klar, og kødet slipper let ved benet."
+      ],
+      "normalized": [
+        {
+          "ingredient": "kyllingeoverlår",
+          "quantity": 800,
+          "unit": "g"
+        },
+        {
+          "ingredient": "kartofler",
+          "quantity": 800,
+          "unit": "g"
+        },
+        {
+          "ingredient": "gulerødder",
+          "quantity": 300,
+          "unit": "g"
+        },
+        {
+          "ingredient": "løg",
+          "quantity": 150,
+          "unit": "g"
+        },
+        {
+          "ingredient": "hakkede tomater",
+          "quantity": 400,
+          "unit": "g"
+        },
+        {
+          "ingredient": "hvidløg",
+          "quantity": 6,
+          "unit": "g"
+        },
+        {
+          "ingredient": "rapsolie",
+          "quantity": 15,
+          "unit": "ml"
+        },
+        {
+          "ingredient": "spidskommen",
+          "quantity": 4,
+          "unit": "g"
+        },
+        {
+          "ingredient": "paprika",
+          "quantity": 4,
+          "unit": "g"
+        },
+        {
+          "ingredient": "oregano",
+          "quantity": 2,
+          "unit": "g"
+        },
+        {
+          "ingredient": "chilipulver",
+          "quantity": 1,
+          "unit": "g"
+        },
+        {
+          "ingredient": "salt",
+          "quantity": 3,
+          "unit": "g"
+        },
+        {
+          "ingredient": "sort peber",
+          "quantity": 1,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "date": "2026-12-03",
+      "name": "Torsdag – thai-inspireret kyllinge-larb",
+      "ingredients": [
+        "500 g hakket kylling",
+        "250 g hvidkål",
+        "150 g gulerødder (ca. 2 mellemstore)",
+        "100 g løg (ca. 1 lille løg)",
+        "150 g tørre ris (ca. 2 dl)",
+        "10 g frisk ingefær (ca. 2 tsk. fintrevet)",
+        "6 g hvidløg (ca. 2 fed)",
+        "25 ml sojasauce (ca. 1 spsk. plus 2 tsk.)",
+        "10 ml eddike (ca. 2 tsk.)",
+        "10 ml rapsolie (ca. 2 tsk.)",
+        "2 g chilipulver (ca. 1 tsk.)",
+        "2 g salt (ca. ⅓ tsk.)",
+        "1 g sort peber (ca. ½ tsk.)"
+      ],
+      "steps": [
+        "Kog risene. Snit kål og løg fint, og riv gulerødderne groft.",
+        "Varm olien på en stor pande. Steg kyllingen i 7–8 minutter, mens den deles grundigt.",
+        "Tilsæt løg, ingefær, hvidløg, chili, salt og peber. Steg videre i 2 minutter.",
+        "Rør sojasauce og eddike i. Vend kål og gulerødder i til sidst, og steg kun 2 minutter, så de bevarer lidt bid."
+      ],
+      "normalized": [
+        {
+          "ingredient": "hakket kylling",
+          "quantity": 500,
+          "unit": "g"
+        },
+        {
+          "ingredient": "hvidkål",
+          "quantity": 250,
+          "unit": "g"
+        },
+        {
+          "ingredient": "gulerødder",
+          "quantity": 150,
+          "unit": "g"
+        },
+        {
+          "ingredient": "løg",
+          "quantity": 100,
+          "unit": "g"
+        },
+        {
+          "ingredient": "ris",
+          "quantity": 150,
+          "unit": "g"
+        },
+        {
+          "ingredient": "ingefær",
+          "quantity": 10,
+          "unit": "g"
+        },
+        {
+          "ingredient": "hvidløg",
+          "quantity": 6,
+          "unit": "g"
+        },
+        {
+          "ingredient": "sojasauce",
+          "quantity": 25,
+          "unit": "ml"
+        },
+        {
+          "ingredient": "eddike",
+          "quantity": 10,
+          "unit": "ml"
+        },
+        {
+          "ingredient": "rapsolie",
+          "quantity": 10,
+          "unit": "ml"
+        },
+        {
+          "ingredient": "chilipulver",
+          "quantity": 2,
+          "unit": "g"
+        },
+        {
+          "ingredient": "salt",
+          "quantity": 2,
+          "unit": "g"
+        },
+        {
+          "ingredient": "sort peber",
+          "quantity": 1,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "date": "2026-12-04",
+      "name": "Fredag – græsk-inspireret kyllingepande",
+      "ingredients": [
+        "500 g hakket kylling",
+        "700 g kartofler",
+        "250 g yoghurt naturel (ca. 2½ dl)",
+        "200 g agurk (ca. ½–⅔ agurk)",
+        "100 g løg (ca. 1 lille løg)",
+        "5 g frisk ingefær (ca. 1 tsk. fintrevet)",
+        "6 g hvidløg (ca. 2 fed)",
+        "15 ml sojasauce (1 spsk.)",
+        "10 ml eddike (ca. 2 tsk.)",
+        "15 ml rapsolie (1 spsk.)",
+        "3 g paprika (ca. 1½ tsk.)",
+        "3 g tørret oregano (ca. 1½ tsk.)",
+        "1 g chilipulver (ca. ½ tsk.)",
+        "3 g salt (ca. ½ tsk.; 2 g til panden og 1 g til tzatziki)",
+        "1 g sort peber (ca. ½ tsk.)",
+        "90 ml rapsolie",
+        "30 ml eddike",
+        "15 g honning",
+        "16 g stødt spidskommen",
+        "19 g paprika",
+        "8 g tørret oregano",
+        "12 g chilipulver",
+        "19 g salt",
+        "7 g sort peber"
+      ],
+      "steps": [
+        "Skær kartoflerne i små tern. Kog dem i letsaltet vand i 7 minutter, og hæld vandet fra.",
+        "Varm olien på en stor pande. Steg kartoflerne i cirka 8 minutter. Tilsæt kylling og løg, og steg videre i 7–8 minutter.",
+        "Tilsæt ingefær, halvdelen af hvidløget, sojasauce, paprika, oregano, chili, 2 g salt og peber. Steg i yderligere 2 minutter.",
+        "Riv agurken, pres lidt væske fra, og bland den med yoghurt, eddike, resten af hvidløget og 1 g salt."
+      ],
+      "normalized": [
+        {
+          "ingredient": "hakket kylling",
+          "quantity": 500,
+          "unit": "g"
+        },
+        {
+          "ingredient": "kartofler",
+          "quantity": 700,
+          "unit": "g"
+        },
+        {
+          "ingredient": "yoghurt naturel",
+          "quantity": 250,
+          "unit": "g"
+        },
+        {
+          "ingredient": "agurk",
+          "quantity": 200,
+          "unit": "g"
+        },
+        {
+          "ingredient": "løg",
+          "quantity": 100,
+          "unit": "g"
+        },
+        {
+          "ingredient": "ingefær",
+          "quantity": 5,
+          "unit": "g"
+        },
+        {
+          "ingredient": "hvidløg",
+          "quantity": 6,
+          "unit": "g"
+        },
+        {
+          "ingredient": "sojasauce",
+          "quantity": 15,
+          "unit": "ml"
+        },
+        {
+          "ingredient": "eddike",
+          "quantity": 10,
+          "unit": "ml"
+        },
+        {
+          "ingredient": "rapsolie",
+          "quantity": 15,
+          "unit": "ml"
+        },
+        {
+          "ingredient": "paprika",
+          "quantity": 3,
+          "unit": "g"
+        },
+        {
+          "ingredient": "oregano",
+          "quantity": 3,
+          "unit": "g"
+        },
+        {
+          "ingredient": "chilipulver",
+          "quantity": 1,
+          "unit": "g"
+        },
+        {
+          "ingredient": "salt",
+          "quantity": 3,
+          "unit": "g"
+        },
+        {
+          "ingredient": "sort peber",
+          "quantity": 1,
+          "unit": "g"
+        },
+        {
+          "ingredient": "rapsolie",
+          "quantity": 90,
+          "unit": "ml"
+        },
+        {
+          "ingredient": "eddike",
+          "quantity": 30,
+          "unit": "ml"
+        },
+        {
+          "ingredient": "honning",
+          "quantity": 15,
+          "unit": "g"
+        },
+        {
+          "ingredient": "spidskommen",
+          "quantity": 16,
+          "unit": "g"
+        },
+        {
+          "ingredient": "paprika",
+          "quantity": 19,
+          "unit": "g"
+        },
+        {
+          "ingredient": "oregano",
+          "quantity": 8,
+          "unit": "g"
+        },
+        {
+          "ingredient": "chilipulver",
+          "quantity": 12,
+          "unit": "g"
+        },
+        {
+          "ingredient": "salt",
+          "quantity": 19,
+          "unit": "g"
+        },
+        {
+          "ingredient": "sort peber",
+          "quantity": 7,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "rows": [
+    {
+      "ingredient": "kyllingebrystfilet",
+      "required": 450,
+      "unit": "g",
+      "purchased": 450,
+      "price_cents": 2900,
+      "store": "REMA 1000",
+      "pantry": false,
+      "source_url": null,
+      "price_status": "reported_not_independently_verified",
+      "note": null
+    },
+    {
+      "ingredient": "svinemørbrad",
+      "required": 600,
+      "unit": "g",
+      "purchased": 600,
+      "price_cents": 2400,
+      "store": "REMA 1000",
+      "pantry": false,
+      "source_url": null,
+      "price_status": "reported_not_independently_verified",
+      "note": null
+    },
+    {
+      "ingredient": "hakket oksekød",
+      "required": 400,
+      "unit": "g",
+      "purchased": 400,
+      "price_cents": 2900,
+      "store": "REMA 1000",
+      "pantry": false,
+      "source_url": null,
+      "price_status": "reported_not_independently_verified",
+      "note": null
+    },
+    {
+      "ingredient": "hakket grisekød",
+      "required": 500,
+      "unit": "g",
+      "purchased": 500,
+      "price_cents": 2000,
+      "store": "REMA 1000",
+      "pantry": false,
+      "source_url": null,
+      "price_status": "reported_not_independently_verified",
+      "note": null
+    },
+    {
+      "ingredient": "kyllingeoverlår",
+      "required": 800,
+      "unit": "g",
+      "purchased": 800,
+      "price_cents": 2000,
+      "store": "REMA 1000",
+      "pantry": false,
+      "source_url": null,
+      "price_status": "reported_not_independently_verified",
+      "note": null
+    },
+    {
+      "ingredient": "hakkede tomater",
+      "required": 1200,
+      "unit": "g",
+      "purchased": 1200,
+      "price_cents": 1500,
+      "store": "REMA 1000",
+      "pantry": false,
+      "source_url": null,
+      "price_status": "reported_not_independently_verified",
+      "note": null
+    },
+    {
+      "ingredient": "kidneybønner",
+      "required": 252,
+      "unit": "g",
+      "purchased": 252,
+      "price_cents": 500,
+      "store": "REMA 1000",
+      "pantry": false,
+      "source_url": null,
+      "price_status": "reported_not_independently_verified",
+      "note": "Source specifies 252 g including liquid, then drains; usable weight unknown"
+    },
+    {
+      "ingredient": "agurk",
+      "required": 400,
+      "unit": "g",
+      "purchased": null,
+      "price_cents": 1400,
+      "store": "REMA 1000",
+      "pantry": false,
+      "source_url": null,
+      "price_status": "reported_not_independently_verified",
+      "note": "2 cucumbers; weight unknown"
+    },
+    {
+      "ingredient": "ris",
+      "required": 750,
+      "unit": "g",
+      "purchased": 1000,
+      "price_cents": 1502,
+      "store": "REMA 1000",
+      "pantry": false,
+      "source_url": null,
+      "price_status": "reported_not_independently_verified",
+      "note": null
+    },
+    {
+      "ingredient": "yoghurt naturel",
+      "required": 600,
+      "unit": "g",
+      "purchased": 1000,
+      "price_cents": 995,
+      "store": "REMA 1000",
+      "pantry": false,
+      "source_url": null,
+      "price_status": "reported_not_independently_verified",
+      "note": null
+    },
+    {
+      "ingredient": "hvidløg",
+      "required": 42,
+      "unit": "g",
+      "purchased": 90,
+      "price_cents": 600,
+      "store": "REMA 1000",
+      "pantry": false,
+      "source_url": null,
+      "price_status": "reported_not_independently_verified",
+      "note": null
+    },
+    {
+      "ingredient": "ingefær",
+      "required": 35,
+      "unit": "g",
+      "purchased": 200,
+      "price_cents": 1400,
+      "store": "REMA 1000",
+      "pantry": false,
+      "source_url": null,
+      "price_status": "reported_not_independently_verified",
+      "note": null
+    },
+    {
+      "ingredient": "sojasauce",
+      "required": 65,
+      "unit": "ml",
+      "purchased": 250,
+      "price_cents": 1050,
+      "store": "REMA 1000",
+      "pantry": false,
+      "source_url": null,
+      "price_status": "reported_not_independently_verified",
+      "note": null
+    },
+    {
+      "ingredient": "hakket kylling",
+      "required": 1000,
+      "unit": "g",
+      "purchased": 1000,
+      "price_cents": 4000,
+      "store": "Netto",
+      "pantry": false,
+      "source_url": null,
+      "price_status": "reported_not_independently_verified",
+      "note": null
+    },
+    {
+      "ingredient": "gulerødder",
+      "required": 900,
+      "unit": "g",
+      "purchased": 1000,
+      "price_cents": 500,
+      "store": "Netto",
+      "pantry": false,
+      "source_url": null,
+      "price_status": "reported_not_independently_verified",
+      "note": null
+    },
+    {
+      "ingredient": "løg",
+      "required": 900,
+      "unit": "g",
+      "purchased": 1000,
+      "price_cents": 500,
+      "store": "Netto",
+      "pantry": false,
+      "source_url": null,
+      "price_status": "reported_not_independently_verified",
+      "note": null
+    },
+    {
+      "ingredient": "hvidkål",
+      "required": 650,
+      "unit": "g",
+      "purchased": null,
+      "price_cents": 1500,
+      "store": "Netto",
+      "pantry": false,
+      "source_url": null,
+      "price_status": "reported_not_independently_verified",
+      "note": "1 cabbage; weight unknown"
+    },
+    {
+      "ingredient": "peberfrugt",
+      "required": 300,
+      "unit": "g",
+      "purchased": 500,
+      "price_cents": 1500,
+      "store": "Netto",
+      "pantry": false,
+      "source_url": null,
+      "price_status": "reported_not_independently_verified",
+      "note": null
+    },
+    {
+      "ingredient": "kartofler",
+      "required": 1500,
+      "unit": "g",
+      "purchased": 2000,
+      "price_cents": 1200,
+      "store": "SuperBrugsen Otterup",
+      "pantry": false,
+      "source_url": null,
+      "price_status": "reported_not_independently_verified",
+      "note": null
+    },
+    {
+      "ingredient": "rapsolie",
+      "required": 180,
+      "unit": "ml",
+      "purchased": 1000,
+      "price_cents": 1909,
+      "store": "REMA 1000",
+      "pantry": true,
+      "source_url": null,
+      "price_status": "reported_not_independently_verified",
+      "note": null
+    },
+    {
+      "ingredient": "eddike",
+      "required": 60,
+      "unit": "ml",
+      "purchased": 1000,
+      "price_cents": 650,
+      "store": "REMA 1000",
+      "pantry": true,
+      "source_url": null,
+      "price_status": "reported_not_independently_verified",
+      "note": null
+    },
+    {
+      "ingredient": "honning",
+      "required": 30,
+      "unit": "g",
+      "purchased": 425,
+      "price_cents": 1909,
+      "store": "REMA 1000",
+      "pantry": true,
+      "source_url": null,
+      "price_status": "reported_not_independently_verified",
+      "note": null
+    },
+    {
+      "ingredient": "spidskommen",
+      "required": 32,
+      "unit": "g",
+      "purchased": 33,
+      "price_cents": 2139,
+      "store": "REMA 1000",
+      "pantry": true,
+      "source_url": null,
+      "price_status": "reported_not_independently_verified",
+      "note": null
+    },
+    {
+      "ingredient": "paprika",
+      "required": 38,
+      "unit": "g",
+      "purchased": 60,
+      "price_cents": 1275,
+      "store": "REMA 1000",
+      "pantry": true,
+      "source_url": null,
+      "price_status": "reported_not_independently_verified",
+      "note": null
+    },
+    {
+      "ingredient": "oregano",
+      "required": 16,
+      "unit": "g",
+      "purchased": 15,
+      "price_cents": 400,
+      "store": "REMA 1000",
+      "pantry": true,
+      "source_url": null,
+      "price_status": "reported_not_independently_verified",
+      "note": null
+    },
+    {
+      "ingredient": "chilipulver",
+      "required": 24,
+      "unit": "g",
+      "purchased": 70,
+      "price_cents": 795,
+      "store": "REMA 1000",
+      "pantry": true,
+      "source_url": null,
+      "price_status": "reported_not_independently_verified",
+      "note": null
+    },
+    {
+      "ingredient": "salt",
+      "required": 38,
+      "unit": "g",
+      "purchased": 1000,
+      "price_cents": 475,
+      "store": "REMA 1000",
+      "pantry": true,
+      "source_url": null,
+      "price_status": "reported_not_independently_verified",
+      "note": null
+    },
+    {
+      "ingredient": "sort peber",
+      "required": 14,
+      "unit": "g",
+      "purchased": 50,
+      "price_cents": 1067,
+      "store": "REMA 1000",
+      "pantry": true,
+      "source_url": null,
+      "price_status": "reported_not_independently_verified",
+      "note": null
+    }
+  ],
+  "budget": {
+    "without_pantry_cents": 30347,
+    "with_pantry_cents": 40966
+  },
+  "checks": {
+    "source_meals": 7,
+    "price_rows": 28,
+    "arithmetic": true,
+    "shortfalls": [
+      {
+        "ingredient": "oregano",
+        "required": 16,
+        "unit": "g",
+        "purchased": 15,
+        "price_cents": 400,
+        "store": "REMA 1000",
+        "pantry": true,
+        "source_url": null,
+        "price_status": "reported_not_independently_verified",
+        "note": null
+      }
+    ],
+    "unknown_weight": [
+      "agurk",
+      "hvidkål"
+    ],
+    "discrepancies": [
+      {
+        "ingredient": "rapsolie",
+        "expected_from_prior_summary": 90,
+        "actual_from_source": 180
+      },
+      {
+        "ingredient": "eddike",
+        "expected_from_prior_summary": 30,
+        "actual_from_source": 60
+      },
+      {
+        "ingredient": "honning",
+        "expected_from_prior_summary": 15,
+        "actual_from_source": 30
+      },
+      {
+        "ingredient": "spidskommen",
+        "expected_from_prior_summary": 16,
+        "actual_from_source": 32
+      },
+      {
+        "ingredient": "paprika",
+        "expected_from_prior_summary": 19,
+        "actual_from_source": 38
+      },
+      {
+        "ingredient": "oregano",
+        "expected_from_prior_summary": 8,
+        "actual_from_source": 16
+      },
+      {
+        "ingredient": "chilipulver",
+        "expected_from_prior_summary": 12,
+        "actual_from_source": 24
+      },
+      {
+        "ingredient": "salt",
+        "expected_from_prior_summary": 19,
+        "actual_from_source": 38
+      },
+      {
+        "ingredient": "sort peber",
+        "expected_from_prior_summary": 7,
+        "actual_from_source": 14
+      }
+    ]
+  },
+  "blockers": [
+    "Original output truncated after basis prices; row-level URL and independent price evidence missing",
+    "Cabbage and cucumber actual weights unknown; bean net/drained distinction must be preserved",
+    "Source provides one recipe variant only",
+    "Existing integrated validator requires verified source URLs or explicitly qualified estimates, and cannot treat these reported prices as verified"
+  ]
+}
