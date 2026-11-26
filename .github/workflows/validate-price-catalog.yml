@@ -1,0 +1,54 @@
+name: Validate price catalog POC
+on:
+  push:
+    branches: [poc-price-transfer]
+    paths: ['poc/price-transfer/real-catalog.json']
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate catalog structure and quality
+        run: |
+          python3 - <<'PY'
+          import json, datetime, math
+          from urllib.parse import urlparse
+          p=json.load(open('poc/price-transfer/real-catalog.json'))
+          assert p['schema_version']==1 and p['environment']=='test' and p['synthetic'] is False and p['publish'] is False
+          shopping=datetime.date.fromisoformat(p['shopping_date'])
+          expected=set('hakket oksekød|hakket grisekød|kyllingebryst|grisemørbrad|laks|kartofler|løg|gulerødder|spidskål|peberfrugt|ris|pasta|hakkede tomater|kokosmælk|hvidløg|madlavningsfløde|æg|smør|cremefraiche|revet ost'.split('|'))
+          items=p['items']
+          assert len(items)==20 and {x['ingredient'] for x in items}==expected
+          meat=set(list('hakket oksekød|hakket grisekød|kyllingebryst|grisemørbrad|laks'.split('|')))
+          documented=set(); verified=set()
+          for x in items:
+              q=x['quality']; assert q in ('A','B','C','D','E')
+              if q=='E':
+                  assert x['price_dkk'] is None
+                  continue
+              assert type(x['price_dkk']) in (int,float) and math.isfinite(x['price_dkk']) and x['price_dkk']>0
+              assert type(x['quantity']) in (int,float) and math.isfinite(x['quantity']) and x['quantity']>0
+              assert x['unit'] in ('g','ml','stk')
+              if q in ('A','B','C'):
+                  u=urlparse(x['source_url']); assert u.scheme=='https' and u.netloc
+                  assert x['store'] in ('REMA 1000','Netto','Lidl','MENY','SuperBrugsen Otterup')
+                  assert x['price_type'] in ('offer','normal')
+                  datetime.date.fromisoformat(x['observed_date'])
+                  if x['price_type']=='offer':
+                      assert datetime.date.fromisoformat(x['valid_from'])<=shopping<=datetime.date.fromisoformat(x['valid_to'])
+                  documented.add(x['ingredient'])
+              if q=='A':
+                  assert x['local_verified'] is True and x['local_evidence'] and x['valid_from'] and x['valid_to']
+                  assert datetime.date.fromisoformat(x['valid_from'])<=shopping<=datetime.date.fromisoformat(x['valid_to'])
+                  verified.add(x['ingredient'])
+          print('STRUCTURE PASS: 20 unique ingredients, no publication')
+          print('Documented meat/fish:',len(documented & meat),'/5')
+          print('Documented other:',len(documented-meat),'/15')
+          print('Locally verified:',len(verified),'/20')
+          print('Priced including estimates:',sum(x['quality']!='E' for x in items),'/20')
+          passed=len(documented & meat)==5 and len(documented-meat)>=14 and all(x['quality']!='E' for x in items)
+          print('COVERAGE GATE:', 'PASS' if passed else 'FAIL')
+          raise SystemExit(0 if passed else 1)
+          PY
