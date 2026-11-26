@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "environment": "test",
+  "synthetic": true,
+  "shopping_date": "2026-11-28",
+  "items": [
+    {
+      "ingredient": "ris",
+      "quantity": 1000,
+      "unit": "g",
+      "price_dkk": 15,
+      "quality": "synthetic",
+      "source": null
+    }
+  ],
+  "publish": false
+}
